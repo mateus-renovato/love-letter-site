@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love Animation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="heart"></canvas>
+
+  <div class="center-text">
+    <h1>Eu Te Amo ❤️</h1>
+    <p id="openLetter">Abrir Carta 💌</p>
+  </div>
+
+  <div class="music-player">
+    <div class="music-info">
+      <h3>2h30</h3>
+      <p>Sotam · Rob</p>
+    </div>
+
+    <button id="playBtn">❚❚</button>
+
+    <audio id="audio" loop autoplay>
+      <source src="music/2h30 - Sotam.mp3" type="audio/mp3" />
+    </audio>
+  </div>
+
+  <div class="letter-modal" id="letterModal">
+    <div class="letter-box">
+      <span id="closeLetter">✕</span>
+      <h2>Para Você ❤️</h2>
+      <div class="letter-text">
+ ❤️.... 
+        ❤️.....
+              ❤️.....
+                    ❤️......
+                            ❤️....
+                                  ❤️.....
+                                        ❤️....
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
